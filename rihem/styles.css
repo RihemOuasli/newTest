@@ -1,0 +1,70 @@
+/* Custom CSS Styles for Food, LLC Website */
+
+.navbar {
+  background-color:gray;
+  border: 3px solid #000;
+}
+
+.container .navbar-header a{
+  color: #000;
+}
+
+
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggle .icon-bar {
+  background-color:#fff;
+}
+
+.page-heading {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 48px;
+  padding-top: .1rem;
+  
+}
+
+.section-heading {
+  text-align: center;
+}
+
+
+.text-center .page-heading{
+  color: #000;
+}
+
+
+
+.container .col-md-4 {
+  margin-top: 50px;
+  width: 30.33%;
+    float: left;
+    border: 1px solid gray;
+    margin: 10px;
+    font-size: 20px;
+    background-color: gray;
+
+}
+.container .col-md-4 h3{
+  color: #000;
+}
+
+.back-to-top {
+  display: block;
+  text-align: right;
+  margin-top: 20px;
+  color: #064e9b;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    text-align: left;
+  }
+
+}
+
+
